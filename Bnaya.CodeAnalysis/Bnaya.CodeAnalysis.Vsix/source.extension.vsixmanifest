@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="Bnaya.CodeAnalysis.afb5d14c-1d6a-41b2-9372-fa3a691d2552" Version="1.0" Language="en-US" Publisher="bnaya"/>
+        <DisplayName>Bnaya.CodeAnalysis</DisplayName>
+        <Description xml:space="preserve">Analyze and Fix code issue by using the .NET Compiler Platform ("Roslyn").
+List of analysis:
+- Equality</Description>
+        <License>https://github.com/bnayae/Bnaya.CodeAnalysis/blob/master/LICENSE</License>
+        <Tags>Analyzer, Code Fix, Equality</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Bnaya.CodeAnalysis" Path="|Bnaya.CodeAnalysis|"/>
+        <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="Bnaya.CodeAnalysis" Path="|Bnaya.CodeAnalysis|"/>
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[15.0,16.0)" DisplayName="Roslyn Language Services" />
+    </Prerequisites>
+</PackageManifest>
