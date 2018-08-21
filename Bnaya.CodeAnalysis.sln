@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bnaya.CodeAnalysis", "Bnaya.CodeAnalysis\Bnaya.CodeAnalysis\Bnaya.CodeAnalysis.csproj", "{F831A8B2-0DC7-4129-9576-117C771552AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bnaya.CodeAnalysis", "Bnaya.CodeAnalysis\Bnaya.CodeAnalysis\Bnaya.CodeAnalysis.csproj", "{F831A8B2-0DC7-4129-9576-117C771552AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bnaya.CodeAnalysis.Test", "Bnaya.CodeAnalysis\Bnaya.CodeAnalysis.Test\Bnaya.CodeAnalysis.Test.csproj", "{A534D532-6902-4EC9-B7E3-53596C8F36BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bnaya.CodeAnalysis.Test", "Bnaya.CodeAnalysis\Bnaya.CodeAnalysis.Test\Bnaya.CodeAnalysis.Test.csproj", "{A534D532-6902-4EC9-B7E3-53596C8F36BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bnaya.CodeAnalysis.Vsix", "Bnaya.CodeAnalysis\Bnaya.CodeAnalysis.Vsix\Bnaya.CodeAnalysis.Vsix.csproj", "{C660F3DB-D3FD-446B-A017-4E36BB65E059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CA19CD2-B9BE-4D4A-9F76-48D8EE0E8216}"
+	ProjectSection(SolutionItems) = preProject
+		TODO.txt = TODO.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
